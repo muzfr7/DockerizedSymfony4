@@ -1,0 +1,35 @@
+version: '3'
+
+services:
+
+    mysql:
+        image: mysql
+        restart: always
+        volumes:
+            - ./mysql:/var/lib/mysql
+        ports:
+            - 33060:3306
+        environment:
+            MYSQL_DATABASE: stta
+            MYSQL_ROOT_PASSWORD: atts
+
+    php:
+        build: ./php-fpm
+        volumes:
+            - ./www:/var/www:cached
+            - ./logs/www:/var/www/var/logs:cached
+        ports:
+            - 9000:9000
+        links:
+            - mysql
+
+    nginx:
+        build: ./nginx
+        restart: always
+        volumes:
+            - ./www:/var/www:cached
+            - ./logs/nginx/:/var/log/nginx:cached
+        ports:
+            - 8080:80
+        links:
+            - php
