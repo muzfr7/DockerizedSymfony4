@@ -1,4 +1,4 @@
-logs/
-mysql/
-www/
+logs/*
+mysql/*
+www/*
 .DS_Store
