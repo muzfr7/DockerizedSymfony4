@@ -28,3 +28,4 @@ $ docker exec -it stta_php_1 bash
 $ cd /var/www
 $ composer create-project symfony/skeleton my_project
 ```
+Depending upon your project name above, you might need to update nginx server's root in `/etc/nginx/conf.d/default.conf` file, and point it to your project's public directory. It's currently pointed to `/var/www/my_project/public`
