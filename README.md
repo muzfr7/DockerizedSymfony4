@@ -5,6 +5,7 @@ Docker containers configured and ready to develop traditional web application, m
 * PHP:7.2-fpm
 * MySQL
 * Nginx
+* Composer
 * Git
 * Nano
 
