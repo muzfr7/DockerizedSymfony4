@@ -6,17 +6,23 @@ Docker containers configured and ready to start developing traditional web appli
 * MySQL
 * NginX
 
-### TimeZone settings
-Before you do anything, you must update timezone in following files:
+### How to install?
+Clone this repository somewhere in your computer, for this example I'm going to clone it in `~/Developer/` directory:
+```
+$ cd ~/Developer
+$ git clone https://github.com/muzfr7/DockerizedSymfony4.git
+```
+
+Before proceeding further, you should update timezone settings in following files:
 ```
 DockerizedSymfony4/nginx/Dockerfile
 DockerizedSymfony4/php-fpm/Dockerfile
 DockerizedSymfony4/php-fpm/php.ini
 ```
 
-### How to install?
+From this point onwards, I'm assuming you have Git, and Docker natively installed on your computer.
 ```
-$ cd DockerizedSymfony4
+$ cd ~/Developer/DockerizedSymfony4
 $ docker-compose build
 $ docker-compose up -d
 ```
