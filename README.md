@@ -2,9 +2,11 @@
 Docker containers configured and ready to start developing traditional web application, microservice, console application or an API..
 
 ### What's included?
-* PHP 7.2
+* PHP:7.2-fpm
 * MySQL
-* NginX
+* Nginx
+* Git
+* Nano
 
 ### How to install?
 **Step 1.** Having [Git](https://git-scm.com) installed, clone this repository somewhere in your computer, for this example I'm going to clone it in `~/Developer/` directory:
