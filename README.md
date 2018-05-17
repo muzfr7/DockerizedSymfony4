@@ -26,9 +26,9 @@ $ docker-compose up -d
 $ docker ps
 
 CONTAINER ID        IMAGE                       COMMAND                  CREATED             STATUS              PORTS                     NAMES
-bbdfe4be67b3        dockerizedsymfony4_nginx    "nginx -g 'daemon of…"   12 days ago         Up 25 minutes       0.0.0.0:8080->80/tcp      dockerizedsymfony4_nginx_1
-4664f8c84678        dockerizedsymfony4_php      "docker-php-entrypoi…"   12 days ago         Up 25 minutes       0.0.0.0:9000->9000/tcp    dockerizedsymfony4_php_1
-1966368c0126        mysql                       "docker-entrypoint.s…"   12 days ago         Up 25 minutes       0.0.0.0:33060->3306/tcp   dockerizedsymfony4_mysql_1
+bbdfe4be67b3        dockerizedsymfony4_nginx    "nginx -g 'daemon of…"   1 hour ago         Up 25 minutes       0.0.0.0:8080->80/tcp      dockerizedsymfony4_nginx_1
+4664f8c84678        dockerizedsymfony4_php      "docker-php-entrypoi…"   1 hour ago         Up 25 minutes       0.0.0.0:9000->9000/tcp    dockerizedsymfony4_php_1
+1966368c0126        mysql                       "docker-entrypoint.s…"   1 hour ago         Up 25 minutes       0.0.0.0:33060->3306/tcp   dockerizedsymfony4_mysql_1
 ```
 
 ### Create Symfony4 project
