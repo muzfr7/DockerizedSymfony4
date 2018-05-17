@@ -8,11 +8,11 @@ Docker containers configured and ready to start developing traditional web appli
 
 ### TimeZone settings
 Before you do anything, you must update timezone in following files:
-`
+```
 DockerizedSymfony4/nginx/Dockerfile
 DockerizedSymfony4/php-fpm/Dockerfile
 DockerizedSymfony4/php-fpm/php.ini
-`
+```
 
 ### How to install?
 ```
