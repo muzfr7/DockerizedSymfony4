@@ -33,7 +33,7 @@ $ composer create-project symfony/skeleton my_project
 To set database connection, edit `/var/www/my_project/.env` file, and update `DATABASE_URL` as below:
 DATABASE_URL=mysql://root:password@192.168.32.2:3306/my_project_db_name
 
-IP address above is of `stta_mysql_1` container. `stta_mysql_1` container's ip address can be checked from it's `/etc/hosts` file, it's appended at the end of it.
+> IP address above is of `stta_mysql_1` container. `stta_mysql_1` container's ip address can be checked from it's `/etc/hosts` file, it's appended at the end of it.
 
 > Depending upon your project name above, you might need to update nginx server's root in `/etc/nginx/conf.d/default.conf` file, and point it to your project's public directory. 
 > It's currently pointed to `/var/www/my_project/public`
