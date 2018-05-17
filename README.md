@@ -7,20 +7,20 @@ Docker containers configured and ready to start developing traditional web appli
 * NginX
 
 ### How to install?
-Clone this repository somewhere in your computer, for this example I'm going to clone it in `~/Developer/` directory:
+1. Having git installed, clone this repository somewhere in your computer, for this example I'm going to clone it in `~/Developer/` directory:
 ```
 $ cd ~/Developer
 $ git clone https://github.com/muzfr7/DockerizedSymfony4.git
 ```
 
-Before proceeding further, you should update timezone settings in following files:
+2. You may want to update timezone settings in following files:
 ```
 DockerizedSymfony4/nginx/Dockerfile
 DockerizedSymfony4/php-fpm/Dockerfile
 DockerizedSymfony4/php-fpm/php.ini
 ```
 
-From this point onwards, I'm assuming you have Git, and Docker natively installed on your computer.
+3. Having Docker natively installed on your computer, build and run containers:
 ```
 $ cd ~/Developer/DockerizedSymfony4
 $ docker-compose build
