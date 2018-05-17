@@ -22,3 +22,9 @@ bbdfe4be67b3        stta_nginx          "nginx -g 'daemon of…"   12 days ago  
 1966368c0126        mysql               "docker-entrypoint.s…"   12 days ago         Up 25 minutes       0.0.0.0:33060->3306/tcp   stta_mysql_1
 ```
 
+### Create Symfony4 project
+```
+$ docker exec -it stta_php_1 bash
+$ cd /var/www
+$ composer create-project symfony/skeleton my_project
+```
