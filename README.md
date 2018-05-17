@@ -1,5 +1,5 @@
 # Dockerized Symfony4
-Docker containers to start building traditional web application, microservice, console application or an API..
+Docker containers configured and ready to start developing traditional web application, microservice, console application or an API..
 
 ### What's included?
 * PHP 7.2
