@@ -15,9 +15,9 @@ $ git clone https://github.com/muzfr7/DockerizedSymfony4.git
 
 **Step 2.** You may want to update timezone settings in following files:
 ```
-DockerizedSymfony4/nginx/Dockerfile
-DockerizedSymfony4/php-fpm/Dockerfile
-DockerizedSymfony4/php-fpm/php.ini
+$ nano DockerizedSymfony4/nginx/Dockerfile
+$ nano DockerizedSymfony4/php-fpm/Dockerfile
+$ nano DockerizedSymfony4/php-fpm/php.ini
 ```
 
 **Step 3.** Having [Docker](https://www.docker.com) natively installed on your computer, build and run containers:
