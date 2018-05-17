@@ -52,3 +52,8 @@ DATABASE_URL=mysql://root:password@192.168.32.2:3306/my_project_db_name
 > Depending upon your project name above, you might need to update nginx server's root in `/etc/nginx/conf.d/default.conf` file, and point it to your project's public directory. 
 > It's currently pointed to `/var/www/my_project/public`
 
+### Running
+Now head to your browser on your host computer, and navigate to:
+```
+http://localhost:8080
+```
